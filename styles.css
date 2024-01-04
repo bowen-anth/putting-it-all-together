@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover,
+a:focus {
+    color:chartreuse;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    margin-left: .15rem;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+body {
+    font-size: 18px;
+    height: 100dvh;
+    color:#2E354F;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    width: 620px;
+    margin: auto;
+}
+
+.section-one-container,
+.section-three-container {
+    background-color: #2E354F;
+    padding: 2rem;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.section-one {
+    padding: 0 1.75rem;
+}
+
+.section-two {
+    padding: 2rem;
+}
+
+.section-two-img {
+    margin: 2rem 0;
+    width: 600px;
+}
+
+.section-two-p {
+    line-height: 1.35rem;
+}
+
+.section-three-container {
+    padding: 2rem;
+}
+
+.section-three {
+    background-color: #2E354F;
+    color: white;
+    padding: 2rem;
+}
+
+.section-three-h2,
+.section-two-h2 {
+    color: #EF5839;
+}
+
+.section-three-h2 {
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+.section-three-p {
+    margin: 1rem 0;
+}
+
+.section-three-button {
+    padding: 8px 20px;
+    border: none;
+    background-color: white;
+    color: #2E354F;
+    display: inline-block;
+    text-decoration: none;
+    transition: .2s all ease-in-out;
+    margin: .5rem .7rem .5rem 0;
+}
+
+.section-three-ipsum-link,
+.section-two-link {
+    color:#EF5839
+}
+
+.accent {
+    background-color: #EF5839;
+    color: white;
+}
+
+.section-three-button:hover,
+.section-three-button:focus {
+    transform:scale(1.05);
+}
