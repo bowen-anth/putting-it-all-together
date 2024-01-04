@@ -1,3 +1,3 @@
 # putting-it-all-together
 
-<img src="screenshot.jpg" width="400px" height="auto" alt="screenshot of site" />
+<img src="screenshot.jpeg" width="400px" height="auto" alt="screenshot of site" />
